@@ -48,8 +48,29 @@ body {
     box-sizing: border-box;
 }
 
+.loginContainer input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    background: darkolivegreen;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
 a {
     color: #000;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+}
+
+.loginContainer:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 1.0);
+    background: rgba(255, 255, 255, 0.1);
 }
 
 /*---Media Queries --*/
